@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html{
+    height: 500vh;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+}
+/*Inicio do js*/
+header.rolagem .flex{
+    background-color: #000;
+    padding: 20px 0;
+}
+
+header.rolagem i, header.rolagem .item-manu{
+    color: #fff;
+}
+
+header.rolagem .btn-contato{
+    width: 180px;
+    background-color: #ff7151;
+    color: #fff;
+    border: #fff solid 2px ;
+    border-radius: 10px;
+}
+/*fim do js*/
+
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px 0;
+    transition: 1s;
+}
+
+
+header a i{
+    font-size: 30px;
+    color: black;
+}
+
+.manu{
+    display: flex;
+    gap: 40px;
+    font-size: 20px;
+}
+
+.item-manu{
+    color: #000;
+}
+
+.btn-contato{
+    width: 160px;
+    height: 40px;
+    font-weight: bold;
+    background-color: #ff7151;
+    color: #fff;
+    border: #000 solid 2px ;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+main{
+    height: 150vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(img/background-image.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.Titulo{
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+}
+.titulo-span{
+    color: #f0b6acfa;
+}
